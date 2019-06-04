@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="349779f5-46d3-4e91-a171-455f5c66f159" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/service/Calculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/service/Calculator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/lib/Version-test-client.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/axisversion/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/axisversion/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/service/Calculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/service/CalculatorService.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -26,47 +26,56 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
+          <entry key="class" value="1" />
           <entry key="java" value="4" />
-          <entry key="xml" value="1" />
+          <entry key="xml" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
+          <entry key="CLASS" value="1" />
           <entry key="JAVA" value="4" />
-          <entry key="XML" value="1" />
+          <entry key="XML" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="137" />
+          <entry key="class" value="10" />
+          <entry key="dummy" value="7" />
+          <entry key="java" value="206" />
+          <entry key="txt" value="5" />
+          <entry key="xml" value="29" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="137" />
+          <entry key="CLASS" value="10" />
+          <entry key="JAVA" value="206" />
+          <entry key="PLAIN_TEXT" value="12" />
+          <entry key="XML" value="29" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/sample/axisversion/Client.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="13" column="1" lean-forward="true" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
+            <state relative-caret-position="165">
+              <caret line="11" column="29" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="29" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/service/Calculator.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/service/CalculatorService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+            <state relative-caret-position="195">
+              <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
               <folding>
-                <element signature="e#85#86#0" expanded="true" />
-                <element signature="e#109#110#0" expanded="true" />
+                <element signature="e#88#89#0" expanded="true" />
+                <element signature="e#114#115#0" expanded="true" />
                 <element signature="e#149#150#0" expanded="true" />
                 <element signature="e#172#173#0" expanded="true" />
               </folding>
@@ -77,8 +86,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/sample/axisversion/VersionStub.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="7380">
-              <caret line="497" column="24" selection-start-line="497" selection-start-column="24" selection-end-line="497" selection-end-column="24" />
+            <state relative-caret-position="149">
+              <caret line="136" column="72" selection-start-line="136" selection-start-column="4" selection-end-line="136" selection-end-column="72" />
             </state>
           </provider>
         </entry>
@@ -97,6 +106,12 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>getversion(</find>
+      <find>public sample.axisversion.VersionStub.GetVersionResponse getVersion(</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -105,6 +120,8 @@
       <list>
         <option value="$PROJECT_DIR$/src/service/Calculator.java" />
         <option value="$PROJECT_DIR$/src/sample/axisversion/Client.java" />
+        <option value="$PROJECT_DIR$/Calculator/META-INF/services.xml" />
+        <option value="$PROJECT_DIR$/src/service/CalculatorService.java" />
       </list>
     </option>
   </component>
@@ -164,38 +181,6 @@
             <path>
               <item name="axis2-build" type="b2602c69:ProjectViewProjectNode" />
               <item name="axis2-build" type="462c0819:PsiDirectoryNode" />
-              <item name="build" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="axis2-build" type="b2602c69:ProjectViewProjectNode" />
-              <item name="axis2-build" type="462c0819:PsiDirectoryNode" />
-              <item name="build" type="462c0819:PsiDirectoryNode" />
-              <item name="classes" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="axis2-build" type="b2602c69:ProjectViewProjectNode" />
-              <item name="axis2-build" type="462c0819:PsiDirectoryNode" />
-              <item name="build" type="462c0819:PsiDirectoryNode" />
-              <item name="classes" type="462c0819:PsiDirectoryNode" />
-              <item name="sample" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="axis2-build" type="b2602c69:ProjectViewProjectNode" />
-              <item name="axis2-build" type="462c0819:PsiDirectoryNode" />
-              <item name="build" type="462c0819:PsiDirectoryNode" />
-              <item name="classes" type="462c0819:PsiDirectoryNode" />
-              <item name="sample" type="462c0819:PsiDirectoryNode" />
-              <item name="axisversion" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="axis2-build" type="b2602c69:ProjectViewProjectNode" />
-              <item name="axis2-build" type="462c0819:PsiDirectoryNode" />
-              <item name="build" type="462c0819:PsiDirectoryNode" />
-              <item name="lib" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="axis2-build" type="b2602c69:ProjectViewProjectNode" />
-              <item name="axis2-build" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -203,12 +188,6 @@
               <item name="axis2-build" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="axisversion" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="axis2-build" type="b2602c69:ProjectViewProjectNode" />
-              <item name="axis2-build" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="axis2-build" type="b2602c69:ProjectViewProjectNode" />
@@ -223,12 +202,18 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1559637039801" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1559639633127" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="preferences.externalTools" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/CalculatorService" />
+      <recent name="$PROJECT_DIR$/Calculator/org/Apache/axis2/Axis2userguide" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -242,6 +227,26 @@
       </list>
     </option>
   </component>
+  <component name="RunManager">
+    <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="sample.axisversion.Client" />
+      <module name="axis2-build" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="sample.axisversion.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Client" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -254,6 +259,14 @@
       <updated>1559554070613</updated>
       <workItem from="1559636200280" duration="85000" />
     </task>
+    <task id="LOCAL-00001" summary="issou">
+      <created>1559637058626</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1559637058626</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -261,7 +274,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="960" y="27" width="960" height="1053" extended-state="4" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.32785088" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -270,15 +282,16 @@
       <window_info id="UI Designer" order="4" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.31079608" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49780703" weight="0.41967213" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.33005464" />
-      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.4989035" visible="true" weight="0.33005464" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.502193" side_tool="true" weight="0.41967213" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Docker" order="10" />
       <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
@@ -300,6 +313,10 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="issou" />
+    <option name="LAST_COMMIT_MESSAGE" value="issou" />
+  </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
@@ -308,33 +325,50 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/axisversion/VersionStub.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="7380">
-          <caret line="497" column="24" selection-start-line="497" selection-start-column="24" selection-end-line="497" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/sample/axisversion/VersionCallbackHandler.java">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/service/Calculator.java">
+    <entry file="file://$PROJECT_DIR$/src/sample/axisversion/VersionStub.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="149">
+          <caret line="136" column="72" selection-start-line="136" selection-start-column="4" selection-end-line="136" selection-end-column="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CalculatorService/META-INF/services.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
-          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
-          <folding>
-            <element signature="e#85#86#0" expanded="true" />
-            <element signature="e#109#110#0" expanded="true" />
-            <element signature="e#149#150#0" expanded="true" />
-            <element signature="e#172#173#0" expanded="true" />
-          </folding>
+          <caret line="10" column="53" selection-start-line="10" selection-start-column="53" selection-end-line="10" selection-end-column="53" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/sample/axisversion/Client.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="29" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CalculatorService/org/Apache/axis2/Axis2userguide/CalculatorService.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="28" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="28" />
+          <folding>
+            <element signature="e#0#350#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/service/CalculatorService.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
-          <caret line="13" column="1" lean-forward="true" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+          <folding>
+            <element signature="e#88#89#0" expanded="true" />
+            <element signature="e#114#115#0" expanded="true" />
+            <element signature="e#149#150#0" expanded="true" />
+            <element signature="e#172#173#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

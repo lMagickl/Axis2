@@ -1,6 +1,6 @@
 package service;
 
-public class Calculator {
+public class CalculatorService {
 
 
     public int calcul(int i, int j){
